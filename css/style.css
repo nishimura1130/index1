@@ -1,0 +1,179 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.logo_image {
+  width: 110px;
+  margin: 0;
+  float: left;
+}
+.top_menu li {
+  float: left;
+  /* width: auto; */
+  /* padding: 15px; */
+}
+.top_menu li a{
+  color: #fff;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.clearfix:after {
+content: "";
+display: block;
+clear: both;
+}
+ul.top_menu{
+  float: right;
+}
+.call{
+  text-align: center;
+}
+.radius-percent-10 {
+  border-radius: 10%;
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.image_area{
+  width: 100%;
+}
+.side_menu li a:hover{
+  text-decoration: underline;
+}
+.side_menu li.b a{
+  text-decoration: none;
+  background: #FCECEC;
+  color: #4D4D4D;
+}
+.side_menu li {
+ background-color: #F5B4B3;
+ height: 6rem;
+ margin-bottom: 10px;
+}
+.side_menu li a{
+  font-size: 2rem;
+  color: #fff;
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.a{
+ background-color: #F5B4B3;
+ color: #4D4D4D;
+}
+ /* .call{
+  background: #FCECEC;
+  color: #4D4D4D;
+}  */
+ /* .content {
+  height: 200px;
+  float: left;
+  width: 660px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}  */
+ /* .container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}  */
+/* .content tr {
+  height: 7rem;
+}
+.content th {
+  width: 150px;
+}
+.contact td{
+  width: 480px;
+  height: 7rem;
+}  */
+ .text{
+  width: 480px;
+} 
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.wrapper{
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+.contact{
+  line-height: 7rem;
+  /* padding: 20px; */
+  overflow: scroll;
+  /* line-height: 2; */
+  width: 680px;
+ /* text-align: center; */
+}
+input.unko{
+  height: 7rem;
+  width: 480px;
+}
+
+th{
+/* text-align: left; */
+  width: 150px;
+  height: 7rem;
+}
+td{
+  width: 480px;
+  /* padding-left: 2rem; */
+}
+  /* .button {
+    background-color: lightseagreen;
+    text-align: center;
+    padding-left: 20rem;
+    } */
+.content{
+  border-collapse: collapse;
+}
+input.submit_button{
+  font-size: 2rem;
+  color: #fff;
+  background-color: #008B8B;
+  border-style: none;
+}
+td.button{
+ padding-left: 5rem;
+}
+
+
+
+
+footer{
+  width: 980px;
+  height: 100px;
+  background-color: #4D4D4D;
+  position: fixed;
+  bottom: 0;
+  display: table;   
+}
+footer p {
+  font-size: 1rem;
+  color: #fff;
+   text-align: center;
+    vertical-align: middle; 
+   display: table-cell;   
+}
+
+
